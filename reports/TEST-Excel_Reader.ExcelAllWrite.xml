@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="sparkPC" name="Excel_Reader.ExcelAllWrite" skipped="0" tests="1" time="0.174" timestamp="2016-02-15T13:16:17">
+<testsuite errors="0" failures="0" hostname="sparkPC" name="Excel_Reader.ExcelAllWrite" skipped="0" tests="1" time="2.022" timestamp="2016-02-15T13:46:16">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.USERDOMAIN_ROAMINGPROFILE" value="sparkPC" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
-    <property name="ant.file.Module_8_Junit_Ant" value="C:\001_Manpreet\workspace\Excel_Operations\build.xml" />
     <property name="sun.management.compiler" value="HotSpot Client Compiler" />
     <property name="env.PROMPT" value="$P$G" />
     <property name="test.reportsDir" value="C:\001_Manpreet\workspace\Excel_Operations\reports" />
@@ -22,10 +21,9 @@
     <property name="user.name" value="spark" />
     <property name="user.language" value="en" />
     <property name="env.windows_tracing_flags" value="3" />
-    <property name="ant.file.type.Module_8_Junit_Ant" value="file" />
     <property name="sun.boot.library.path" value="C:\Java\jdk1.7\jre\bin" />
     <property name="ant.project.default-target" value="usage" />
-    <property name="ant.project.name" value="Module_8_Junit_Ant" />
+    <property name="ant.project.name" value="Module_Ant" />
     <property name="java.version" value="1.7.0_67" />
     <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 30 Stepping 5, GenuineIntel" />
     <property name="user.timezone" value="" />
@@ -76,7 +74,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="C:\001_Manpreet\workspace\Excel_Operations\build;C:\001_Manpreet\020_selenium\jars\poi\dom4j-1.1.jar;C:\001_Manpreet\020_selenium\jars\poi\junit-4.10.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-ooxml-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-ooxml-schemas-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\xmlbeans-2.3.0.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-launcher.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-junit.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Excel_Reader.ExcelAllWrite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\001_Manpreet\workspace\Excel_Operations\reports\TEST-Excel_Reader.ExcelAllWrite.xml crashfile=C:\001_Manpreet\workspace\Excel_Operations\junitvmwatcher3239456403502020538.properties propsfile=C:\001_Manpreet\workspace\Excel_Operations\junit7696177858287094212.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Excel_Reader.ExcelAllWrite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\001_Manpreet\workspace\Excel_Operations\reports\TEST-Excel_Reader.ExcelAllWrite.xml crashfile=C:\001_Manpreet\workspace\Excel_Operations\junitvmwatcher4561831069998733670.properties propsfile=C:\001_Manpreet\workspace\Excel_Operations\junit4063766124030628908.properties" />
     <property name="ws.jars" value="C:\001_Manpreet\020_selenium\jars\poi" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
@@ -92,10 +90,12 @@
     <property name="java.io.tmpdir" value="C:\Users\spark\AppData\Local\Temp\" />
     <property name="test.src" value="C:\001_Manpreet\workspace\Excel_Operations/src" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="ant.file.Module_Ant" value="C:\001_Manpreet\workspace\Excel_Operations\build.xml" />
     <property name="env.SystemRoot" value="C:\Windows" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="os.arch" value="x86" />
     <property name="env.ANT_CMD_LINE_ARGS" value=" run" />
+    <property name="ant.file.type.Module_Ant" value="file" />
     <property name="java.ext.dirs" value="C:\Java\jdk1.7\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
     <property name="user.dir" value="C:\001_Manpreet\workspace\Excel_Operations" />
     <property name="env.LOCALAPPDATA" value="C:\Users\spark\AppData\Local" />
@@ -116,11 +116,8 @@
     <property name="ant.project.invoked-targets" value="run" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="Excel_Reader.ExcelAllWrite" name="initializationError" time="0.014">
-    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-</error>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="Excel_Reader.ExcelAllWrite" name="allWrite" time="1.851" />
+  <system-out><![CDATA[Writing into Excel files ..... 
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

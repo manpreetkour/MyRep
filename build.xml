@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="Module_8_Junit_Ant" default="usage" basedir=".">  
+<project name="Module_Ant" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>
@@ -45,7 +45,7 @@
             <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
         </tstamp>
         <condition property="ANT" 
-            value="${env.ANT_HOME}/bin/ant.bat" 
+            value="${env.ANT_HOME}/bin/ant.bat"				 
             else="${env.ANT_HOME}/bin/ant">
                     <os family="windows" />
         </condition>
@@ -113,9 +113,10 @@
 			       
 			  <!--include name="tests/LoginTest.class" />
 			 <include name="tests/Parameterized_Test.class" />
+			 <include name="Excel_Reader/ExcelReader.class" />
 			 <include name="tests/TestApplication.class" /-->
 			  <include name="Excel_Reader/ExcelAllWrite.class" />
-			  <include name="Excel_Reader/ExcelReader.class" />
+			  
 
 			        
 			         
