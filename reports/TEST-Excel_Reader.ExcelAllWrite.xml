@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="sparkPC" name="Excel_Reader.ExcelAllWrite" skipped="0" tests="1" time="2.022" timestamp="2016-02-15T13:46:16">
+<testsuite errors="0" failures="0" hostname="sparkPC" name="Excel_Reader.ExcelAllWrite" skipped="0" tests="1" time="1.94" timestamp="2016-02-15T13:49:47">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.USERDOMAIN_ROAMINGPROFILE" value="sparkPC" />
@@ -74,7 +74,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="C:\001_Manpreet\workspace\Excel_Operations\build;C:\001_Manpreet\020_selenium\jars\poi\dom4j-1.1.jar;C:\001_Manpreet\020_selenium\jars\poi\junit-4.10.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-ooxml-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\poi-ooxml-schemas-3.6-20091214.jar;C:\001_Manpreet\020_selenium\jars\poi\xmlbeans-2.3.0.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-launcher.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-junit.jar;C:\001_Manpreet\010_softwares\apache-ant-1.9.6\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Excel_Reader.ExcelAllWrite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\001_Manpreet\workspace\Excel_Operations\reports\TEST-Excel_Reader.ExcelAllWrite.xml crashfile=C:\001_Manpreet\workspace\Excel_Operations\junitvmwatcher4561831069998733670.properties propsfile=C:\001_Manpreet\workspace\Excel_Operations\junit4063766124030628908.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Excel_Reader.ExcelAllWrite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\001_Manpreet\workspace\Excel_Operations\reports\TEST-Excel_Reader.ExcelAllWrite.xml crashfile=C:\001_Manpreet\workspace\Excel_Operations\junitvmwatcher3920013768270796261.properties propsfile=C:\001_Manpreet\workspace\Excel_Operations\junit959449926328020147.properties" />
     <property name="ws.jars" value="C:\001_Manpreet\020_selenium\jars\poi" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
@@ -116,7 +116,7 @@
     <property name="ant.project.invoked-targets" value="run" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="Excel_Reader.ExcelAllWrite" name="allWrite" time="1.851" />
+  <testcase classname="Excel_Reader.ExcelAllWrite" name="allWrite" time="1.766" />
   <system-out><![CDATA[Writing into Excel files ..... 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

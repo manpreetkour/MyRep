@@ -45,7 +45,7 @@
             <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
         </tstamp>
         <condition property="ANT" 
-            value="${env.ANT_HOME}/bin/ant.bat"				 
+            value="${env.ANT_HOME}/bin/ant"				 
             else="${env.ANT_HOME}/bin/ant">
                     <os family="windows" />
         </condition>
