@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelAllWrite {
 	public static void main(String[] args) throws IOException, InvalidFormatException {
+		System.out.println("Writing into Excel files ..... ");
 		String path=System.getProperty("user.dir")+"\\src\\XLS_Files\\TestData.xlsx";
 		FileInputStream fis =new FileInputStream(path);
 		XSSFWorkbook workbook= new XSSFWorkbook(fis);
